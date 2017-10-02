@@ -1,0 +1,62 @@
+\documentclass{article}
+
+%\usepackage[spanish]{babel}
+
+\usepackage[utf8]{inputenc}
+
+\usepackage{graphicx}
+
+\title{Ecuaciones en Diferencias}
+
+\author{Dalia Itzel Espinosa Tolentino}
+
+\date{2 de octubre de 2017}
+
+\begin{document}
+
+\maketitle
+
+
+\section{Ecuaciones de Primer Orden}
+
+\subsection{Ecuaciones Liniales}
+
+Una ecuación en diferencias de primer grado tiene la forma $x_{n+1}=ax_n$ donde $a$ es una constante.
+
+La formula para resolver ecuaciones lineales es 
+\begin{equation}
+  \label{eq:eq2}
+x_n=a^nx_0
+\end{equation}
+
+Por ejemplo si iniciamos una inversión con 1000 pesos con un interés mensaul del 1\%, obtenemos lo siguiente:
+
+\begin{center}
+  \includegraphics[width=8cm]{inversion.png}
+\end{center}
+
+
+\subsection{Ecuaciones Afines}
+
+Una ecuación afin en diferencias de primer grado tiene la forma $x_{n+1}=ax_n+b$ donde $a$ es una constante.
+
+La formula para resolver ecuaciones afines es
+
+\begin{equation}
+  \label{eq:eq1}
+  x_n=a^n(x_n-\alpha)+\alpha
+\end{equation}
+
+donde $\alpha=\frac{b}{1-a}$.
+
+Para deducir esta fórmula usamos que $$\sum_{i=0}^{n-1}a^i=\frac{a^n-1}{a-1}$$
+
+\section{Ecuaciones de Segundo Orden}
+El metodo para resolver estas ecuaciones esta 
+%El método para resolver estas ecuaciones está inspirado en la formula \ref{eq:eq2}.
+ 
+\end{document}
+
+
+% Una ecuación en diferencias de primer grado tiene la forma $x_{n+1}=ax_n$ donde $a$ es una constante.
+%  ecuación afin en diferencias de primer grado tiene la forma $x_{n+1}=ax_n+b$ donde $a$ es una constante.
